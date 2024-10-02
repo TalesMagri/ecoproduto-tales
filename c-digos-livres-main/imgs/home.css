@@ -1,0 +1,40 @@
+body{
+    background-color: rgba(92, 60, 11, 0.603);
+}
+
+header{
+
+}
+
+#cabeçalho{
+
+}
+
+.navul{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.navli{
+    list-style: none;
+}
+
+.navlink{
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.products{
+    
+    
+}
+
+#ecobag{
+    width: 300px;
+    height: 300px;
+}
+
+.avaliacoes{
+    border: 1px;
+}

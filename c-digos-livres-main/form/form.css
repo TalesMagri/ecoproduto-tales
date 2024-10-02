@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: ;
+    height: 100vh;
+    margin: 0;
+}
+
+form{
+    background-color: aliceblue;
+    color: dimgrey;
+    height: 100vh;
+    width: 900px;
+    box-shadow: 0px 0px 10px gray;
+    padding: 20px;
+    margin: ;
+}
