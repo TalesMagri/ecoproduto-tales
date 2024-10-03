@@ -222,7 +222,7 @@ footer{
 
 .p-contatos{
     background-color: #161F30;
-    color: ;
+    color: white;
     border-radius: 10px;
     border: solid #005C53 10px;
     width: 500px;
@@ -243,6 +243,3 @@ footer{
 }
 
 
-.comentário-valdir{
-    font-size: 0.rem;
-}
