@@ -1,19 +1,64 @@
 body{
-    background-color: rgba(92, 60, 11, 0.603);
+    margin: 0px;
+    padding: 0px;
+    background-color: #012030;
 }
 
 header{
+    background: linear-gradient(to left, #008F8C,#015958, #023535);
+    margin: 0px;
+    padding: 10px;
 
 }
-
-#cabeçalho{
-
+#img-header{
+    margin: auto;
+    display: block;
 }
+
+.h1-header{
+    display: flex;
+    justify-content: center;
+    margin: center;
+    padding: 10px;
+    align-items: center;
+    font-family: fantasy;
+    font-size: 3.5rem;
+}
+
+.h2-header{
+    display: flex;
+    justify-content: center;
+    margin: center;
+    padding: 10px;
+    align-items: center;
+    font-size: 2.2rem;
+    
+}
+.introducao-site{
+    margin: center;
+    text-align: center;
+    font-size: 1.1rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 700px;
+    border-radius: 10px;
+    padding: 20px 30px 20px 30px;
+    background-color: #C7FFED;
+    color: white;
+    border: 10px solid #C7FFED;
+}
+
 
 .navul{
     display: flex;
     justify-content: center;
     gap: 60px;
+}
+
+a:hover{
+    background-color: #173540;
+    display: none;
+    padding: 10px;
+    
 }
 
 .navli{
@@ -23,17 +68,40 @@ header{
 .navlink{
     text-decoration: none;
     font-size: 2rem;
+    color: #1A170B;
 }
 
-.products{
-    
-    
+.h2-center{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    font-size: 1.7rem;
+}
+.ul-servicos{
+    background-color: #173540;
+    display: flex;
+    justify-content: center;
+    margin: 0px; 
+    padding: 10px;
+    gap: 60px;
+    font-size: 1rem;
 }
 
-#ecobag{
-    width: 300px;
-    height: 300px;
+#img-services{
+    margin: auto;
+    display: block;
+    justify-content: center;
+    align-items: center;
 }
+.{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+    width: 900px;
+    max-width: 900px;
+      
+}
+
 
 .avaliacoes{
     border: 1px;
