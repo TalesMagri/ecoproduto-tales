@@ -50,37 +50,76 @@ header{
     
 }
 
-a:hover{
+.navlink:hover{
     background-color: #173540;
-    display: flexbox ;
-    padding: 10px;
 }
 
 .navul{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 60px;
+    margin-right: 50px;
 }
 
 .navli{
     list-style: none;
-    
 }
 
 .navlink{
     text-decoration: none;
     font-size: 2rem;
     color: white;
+    padding: 15px;
 }
 
-.h2-center{
+.big-container {
     display: flex;
     justify-content: center;
-    padding: 10px;
+}
+
+.h2-produtos, .h2-servicos, .h2-center, .h2-contatos{
+    text-align: center;
+    background-color:#173540 ;
     font-size: 1.7rem;
 }
+
+
+.produto, .canudo {
+    width: 250px;
+    background-color: #2f3f0d;
+
+}
+
+.products-img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.products-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    flex-wrap: wrap;
+    gap: 30px   ;
+    background-color: #265C4B;
+    border-radius: 10px;
+}
+
+.description{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.6rem;
+}
+.canudo{
+    width: 250px;
+    height: 250px;
+}
+
 .ul-servicos{
-    background-color: #173540;
+    background-color: #041b24;
     display: flex;
     justify-content: center;
     margin: 0px; 
@@ -94,24 +133,50 @@ a:hover{
     display: block;
     justify-content: center;
     align-items: center;
-}
 
+}
 
 
 .avaliacoes{
-    justify-content: center;
-    align-items: center;
     background-color: #327355;
-    width: 500px;
+    width: 400px;
     padding: 25px;
     border-radius: 25px;
-    border: solid black;
-    
+    border: solid 2px black;
 }
 
+.container-av {
+    display: flex;
+    justify-content: center;
+}
+
+.av {
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+
+.seilaporra {
+    display: flex;
+    justify-content: center;
+}
+
+.avaliacoes {
+    transition: all .3s;
+}
+
+.avaliacoes:hover {
+    margin-top: -20px;
+}
+
+
 .text-avaliacao{
-    justify-content: center0;
+    justify-content: center;
     align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
     
 }
 
@@ -124,4 +189,60 @@ footer{
     text-align: center;
     margin-bottom: 0px;
     
+}
+.text-blog{
+    background-color: #A62B1F;
+    color: #d3c48d;
+    margin: center;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 900px;
+    border-radius: 35px;
+    padding: 5px 15px 5px 15px;
+    border: 5px solid #2D5731;
+    
+}
+
+.h2-blog {
+    background-color: #173540;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+#blog{
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-container{
+    display: flex;
+    justify-content: center;
+}
+
+.p-contatos{
+    background-color: #161F30;
+    color: ;
+    border-radius: 10px;
+    border: solid #005C53 10px;
+    width: 500px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.3rem;
+}
+
+.container-contatos{
+    display: flex;
+    justify-content: center;
+}
+.contatos{
+    background-color: #16232E;   
+    color: white;
+    font-size: 1.5rem;    
+    text-align: center;
+}
+
+
+.comentário-valdir{
+    font-size: 0.rem;
 }
